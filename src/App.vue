@@ -6,6 +6,11 @@
   </nav>
   <router-view/>
 </template>
+<script>
+import ProductList from './components/ProductList.vue';
+
+</script>
+
 
 <style>
 #app {
