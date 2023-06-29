@@ -22,7 +22,7 @@ export default {
   },
   mounted() {
     axios
-      .get('https://jcgviljoen.github.io/json-guitar-server/products.json') // Replace with the actual path to your external JSON file
+      .get('https://jcgviljoen.github.io/json-guitar-server/products.json') 
       .then(response => {
         this.products = response.data.products;
       })
